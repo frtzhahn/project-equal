@@ -69,3 +69,17 @@ body.mobile-view {
     transform-origin: top left;
     width: 200%;
 }
+
+/* Fade-in animation for background */
+@keyframes fadeInBackground {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.background.fade-in {
+    animation: fadeInBackground 5s forwards; /* Adjust the duration as needed */
+}
