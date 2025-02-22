@@ -97,3 +97,17 @@ body.mobile-view {
 .fade-out {
     animation: fadeOut 1s forwards; /* Adjust the duration as needed */
 }
+
+/* Fade-in animation for background */
+@keyframes fadeInBackground {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.background.fade-in {
+    animation: fadeInBackground 5s forwards; /* Adjust the duration as needed */
+}
