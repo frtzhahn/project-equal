@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    
+    height: 100%;
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the background image */
     text-align: center;
@@ -305,6 +305,7 @@ body.mobile-view {
     transform: scale(0.46); /* Shrink the whole webpage */
     transform-origin: top left;
     width: 200%;
+    height: 100%;
     overflow-x: hidden;
 
 }
