@@ -81,5 +81,5 @@ body.mobile-view {
 }
 
 .fade-out {
-    animation: fadeOut 1s forwards; /* Adjust the duration as needed */
+    animation: fadeOut 5s forwards; /* Adjust the duration as needed */
 }
