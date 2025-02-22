@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ict.css">
+        <title>Information and Communication Technology Strand</title>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="header-left">
+                <img src="5.png" alt="ICT LOGO" title="ICT LOGO" class="header-logo">
+                <h1 class="header-title">INFORMATION AND<br> COMMUNICATION<br>TECHNOLOGY </h1>
+                <hr class="vertical-hr">
+            </div>
+            <div class="header-right">
+                <a href="homepage.html"><button class="header-button" title="click me!">Return to Homepage</button></a>
+                <button class="header-button" id="mobile-view-button" title="Toggle Mobile View">Mobile View</button>
+                <button class="header-button" title="click me!">Help</button>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById('mobile-view-button').addEventListener('click', function() {
+                document.body.classList.toggle('mobile-view');
+            });
+        </script>
+        
+    </body>
+</html>
