@@ -80,9 +80,4 @@ document.addEventListener("DOMContentLoaded", function() {
             window.location.href = 'about us.html';
         }, 1000); // Match the duration of the fade-out animation
     });
-
-    // Toggle mobile view
-    document.getElementById('mobile-view-button').addEventListener('click', function() {
-        document.body.classList.toggle('mobile-view');
-    });
 });
