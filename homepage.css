@@ -4,33 +4,47 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #A29675;
+    
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
     text-align: center;
     font-family: Arial, sans-serif;
     position: relative;
     overflow-x: hidden;
     font-weight: bold;
-   
+}
 
+/* Fade-in animation for background */
+@keyframes fadeInBackground {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.background.fade-in {
+    animation: fadeInBackground 10s forwards; /* Adjust the duration as needed */
 }
 
 /* Base styles for desktop */
 body {
     font-size: 18px;
     margin: 20px;
-  }
-  
-  /* For devices with a maximum width of 600px (like many phones) */
-  @media (max-width: 600px) {
+}
+
+/* For devices with a maximum width of 600px (like many phones) */
+@media (max-width: 600px) {
     body {
-      font-size: 16px;
-      margin: 10px;
+        font-size: 16px;
+        margin: 10px;
     }
     /* Adjust layout for phone screens */
     .container {
-      padding: 10px;
+        padding: 10px;
     }
-  }
+}
   
 .header {
     display: flex;
@@ -38,9 +52,6 @@ body {
     align-items: center;
     width: 99%;
     background-color: #7c5624; /* Brown background color */
-    position:fixed;
-    top: 0;
-    z-index: 1;
 }
 
 .header-left {
@@ -105,7 +116,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 .logo-container img {
@@ -232,18 +243,6 @@ body {
 .scroll-effect.hide {
     opacity: 0;
     transform: translateX(-100px); /* Move back to the left */
-}
-
-.short-line {
-    border: 3px solid rgb(86, 75, 45);
-    width: 20%;
-    margin: 20px auto;
-}
-
-.long-line {
-    border: 5px solid rgb(86, 75, 45);
-    width: 40%;
-    margin: 20px auto;
 }
 
 /* Horizontal Scroll Section */
