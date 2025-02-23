@@ -25,7 +25,7 @@ body {
 }
 
 .background.fade-in {
-    animation: fadeInBackground 10s forwards; /* Adjust the duration as needed */
+    animation: fadeInBackground 5s forwards; /* Adjust the duration as needed */
 }
 
 /* Base styles for desktop */
@@ -321,7 +321,7 @@ body.mobile-view {
 }
 
 .fade-out {
-    animation: fadeOut 1s forwards; /* Adjust the duration as needed */
+    animation: fadeOut 5s forwards; /* Adjust the duration as needed */
 }
 
 /* Fade-in animation */
@@ -335,7 +335,7 @@ body.mobile-view {
 }
 
 .fade-in {
-    animation: fadeIn 1s forwards; /* Adjust the duration as needed */
+    animation: fadeIn 5s forwards; /* Adjust the duration as needed */
 }
 
 /* Fade-out animation */
@@ -349,5 +349,5 @@ body.mobile-view {
 }
 
 .fade-out {
-    animation: fadeOut 1s forwards; /* Adjust the duration as needed */
+    animation: fadeOut 5s forwards; /* Adjust the duration as needed */
 }
